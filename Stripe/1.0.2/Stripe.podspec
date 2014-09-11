@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Stripe/**/*.h'
   s.framework           = 'Foundation'
   s.requires_arc        = true
-  s.dependency 'PaymentKit'
+  s.dependency 'PaymentKit', '1.0.5'
 end
